@@ -25,5 +25,5 @@ public interface ISerializer {
      * @param:
      * @return:
      */
-    public <T> T deserialize(byte[] bytes, Class<T> clazz);
+    public <T> T deserialize(byte[] data, Class<T> clazz);
 }
